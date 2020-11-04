@@ -1,13 +1,13 @@
 ---
-Title: Home
+Title: Presentation
 Description: This is our index page.
 ---
 
-Home page
+Presentation
 ==========================
+<img src="image/frida.jpg" alt="självporträtt" class="l-img">
+Mitt namn är Frida och jag läser första terminen av Webbprogrammering (distans) vid BTH.
+Jag har sedan tidigare läst kurser i C# och Java. Min första hemsida skapade jag i kursen HTMLPHP och det är första gången jag arbetar med ramverk och mot GitHub. 
 
-The source for this page is in `content/index.md`.
-
-This is a sample home page written in markdown with some frontmatter defined.
-
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+Min stora utmaning ligger i att förstå samband mellan pakethanterare, ramverk och .twig-filer. 
+Jag drivs av utmaningar och tycker det är kul att lära mig nya saker, så jag är på helt rätt plats
