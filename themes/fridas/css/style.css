@@ -6555,20 +6555,14 @@ readers do not read off random characters that represent icons */
 
 .item4 {
   margin: 0 auto;
-  width: 50vw;
   min-height: 60vh;
+  width: 50vw;
   grid-column: 1/6;
 }
-
 .item4 h1 {
   margin: 0;
   padding: 1vw;
   color: #194f67;
-}
-.item4 .l-img {
-  float: left;
-  width: 20vw;
-  padding-right: 1vw;
 }
 .item4 p {
   padding-left: 0.55vw;
@@ -6584,6 +6578,13 @@ readers do not read off random characters that represent icons */
   text-decoration: none;
   color: #464646;
   font-weight: bold;
+}
+
+.with-image .l-img {
+  padding-top: 10vh;
+  float: left;
+  width: 20vw;
+  padding-right: 1vw;
 }
 
 .item5 {
