@@ -1,0 +1,40 @@
+.item4 {
+    margin: 0 auto;
+    width: 62.5vw;
+    min-height: 60vh;
+    max-height: 60vh;
+    overflow: auto;
+    grid-column: 1 / 6;
+}
+
+.item4 {
+    h1 {
+        margin: 0;
+        padding: 1vw;
+        color: $sea-blue;
+    }
+
+    .l-img {
+        float: left;
+        width: 20vw;
+        padding-right: 1vw;
+    }
+
+    p {
+        padding-left: 0.55vw;
+    }
+
+    ul,
+    li {
+        list-style: none;
+        font-size: 1.1em;
+        padding: 1vh 0 0 1.5vw;
+    }
+
+    a,
+    a:visited {
+        text-decoration: none;
+        color: $body-text;
+        font-weight: bold;
+    }
+}

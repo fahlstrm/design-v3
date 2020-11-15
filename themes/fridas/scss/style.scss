@@ -1,0 +1,62 @@
+@import '../../shared/scss/base';
+@import 'variables';
+@import 'header';
+@import 'article';
+@import 'footer';
+@import 'responsive';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand&family=Unica+One&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+
+html,
+body {
+    margin: 0;
+    font-family: $basic-font;
+    font-size: 20px;
+    line-height: 1.6;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    color: $body-text;
+}
+
+.container {
+    max-height: 100vh;
+    margin: 0 auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}

@@ -1,0 +1,106 @@
+.item1 {
+    grid-column: 1 / 4;
+    height: 18vh;
+    margin: 1vh;
+    border-right: 0.3vw dotted $sea-blue;
+   
+}
+
+.logo {
+    height: 20vh;
+    
+    img {
+        max-width: 100%;
+    }
+}
+
+.logo * {
+    display: block;
+}
+
+.title {
+    line-height: 12vh;
+    vertical-align: middle;
+    text-align: center;
+   
+    h1 {
+        font-family: 'Unica One', cursive;
+        letter-spacing: 1em;
+        margin: 0;
+        font-size: 1.8em;
+        color: $body-text;
+    }
+
+    p {
+        line-height: 4vh;
+        font-size: 1em;
+        font-style: italic;
+        color: rgb(76, 129, 152);
+    }
+
+    a,
+    .title :visited {
+        text-decoration: none;
+        color: $body-text;
+    }
+}
+
+
+.item2 {
+    grid-column: 4 / 6;
+    text-align: center;
+    align-self: center;
+
+    ul {
+        margin: 0 auto;
+        font-family: 'Unica One', cursive;
+        font-size: 1.2em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 1em;
+        padding: 0;
+        font-weight: bold;
+    }
+}
+
+
+.item2 a,
+.nav-toggle {
+    color: $body-text;
+    text-decoration: none;
+}
+
+.item2 .active a,
+.item2 a:hover,
+.nav-toggle:hover {
+    color: $rasberry-pink;
+    text-decoration: none;
+}
+
+.item2 a:hover,
+.nav-toggle:hover {
+    color: $sea-blue;
+    border-bottom: 4px dotted $sea-blue;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+
+.item3 {
+    grid-column: 1 / 6;
+    width: inherit;
+    height: 8vh;
+    object-fit: cover;
+    overflow: hidden;
+
+    .flash-img {
+        width: 100%;
+    }
+}
