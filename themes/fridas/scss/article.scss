@@ -1,9 +1,9 @@
 .item4 {
     margin: 0 auto;
-    width: 62.5vw;
+    width: 50vw;
     min-height: 60vh;
-    max-height: 60vh;
-    overflow: auto;
+    // max-height: 60vh;
+    // overflow: auto;
     grid-column: 1 / 6;
 }
 
@@ -27,7 +27,7 @@
     ul,
     li {
         list-style: none;
-        font-size: 1.1em;
+        font-size: 1em;
         padding: 1vh 0 0 1.5vw;
     }
 

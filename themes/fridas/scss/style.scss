@@ -45,7 +45,7 @@ html,
 body {
     margin: 0;
     font-family: $basic-font;
-    font-size: 20px;
+    font-size: $basic-size;
     line-height: 1.6;
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;

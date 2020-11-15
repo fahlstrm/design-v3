@@ -24,7 +24,7 @@
     text-align: center;
    
     h1 {
-        font-family: 'Unica One', cursive;
+        font-family: $header-font;
         letter-spacing: 1em;
         margin: 0;
         font-size: 1.8em;
@@ -53,7 +53,7 @@
 
     ul {
         margin: 0 auto;
-        font-family: 'Unica One', cursive;
+        font-family: $header-font;
         font-size: 1.2em;
         list-style: none;
         margin: 0;

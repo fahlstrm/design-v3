@@ -6481,7 +6481,7 @@ readers do not read off random characters that represent icons */
   text-align: center;
 }
 .title h1 {
-  font-family: "Unica One", cursive;
+  font-family: "Unica One", cursive, "Arial";
   letter-spacing: 1em;
   margin: 0;
   font-size: 1.8em;
@@ -6506,7 +6506,7 @@ readers do not read off random characters that represent icons */
 }
 .item2 ul {
   margin: 0 auto;
-  font-family: "Unica One", cursive;
+  font-family: "Unica One", cursive, "Arial";
   font-size: 1.2em;
   list-style: none;
   margin: 0;
@@ -6555,10 +6555,8 @@ readers do not read off random characters that represent icons */
 
 .item4 {
   margin: 0 auto;
-  width: 62.5vw;
+  width: 50vw;
   min-height: 60vh;
-  max-height: 60vh;
-  overflow: auto;
   grid-column: 1/6;
 }
 
@@ -6578,7 +6576,7 @@ readers do not read off random characters that represent icons */
 .item4 ul,
 .item4 li {
   list-style: none;
-  font-size: 1.1em;
+  font-size: 1em;
   padding: 1vh 0 0 1.5vw;
 }
 .item4 a,
@@ -6738,7 +6736,7 @@ html,
 body {
   margin: 0;
   font-family: "Quicksand", sans-serif, "Arial", monospace;
-  font-size: 20px;
+  font-size: 1.15em;
   line-height: 1.6;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
