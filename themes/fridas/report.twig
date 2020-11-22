@@ -67,23 +67,32 @@
             </div>
         </div>
 
-        <div class="item4" role="main">
-            {% if meta.Image %}
+        <div class="item4">
+{# 
+            {% if meta.Image or meta.LinkImage %}
                 {# {{ dump(meta.Image) }} #}
-                    <div class="with-image">
-                        <div class="l-img">
-                            <img src="{{meta.Image}}" class="l-img">
-                        </div>
-                    <div class="content">
-                        {{ content }}
+                {# <div class="with-image">
+                {% if meta.Image %}
+                    <div class="img-col">
+                        <img src="{{meta.Image}}" class="l-img">
                     </div>
+                {% elseif meta.LinkImage %}
+                    <div class="img-col">
+                        <a href="../image/designv3_kmom01.PNG" target="_self">
+                            <img src="{{meta.LinkImg}}" class="l-img" target="_self">
+                        </a>
+                    </div>
+                {% endif %}
+                {{ content }}
                 </div>
 
-            {% else %}
-                <div class="main">
+            {% else %} #}
+                <div class="report" role="main">
                     {{ content }}
                 </div>
-            {% endif %}
+
+            {# {% endif %} #}
+
         </div>
 
         <div class="item5">

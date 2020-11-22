@@ -1,14 +1,14 @@
 ---
 Title: Kmom01
 Description: Part 1
+Image: 
+    - img: "../image/designv3_kmom01.PNG"
+Template: kmom
 ---
 
 Kursmoment 1
 ==================
 
-<a href="../image/designv3_kmom01.PNG" target="_self">
-    <img target="_self" src="../image/designv3_kmom01.PNG" alt="design" class="l-img">
-</a>
 Då jag sedan innan terminsstart varit obekant med terminalen som verktyg liksom ramverk blev installation av labbmiljön en kalldusch, men guiderna på dbwebb utförliga så att det gick vägen. Hade dock önskat att jag gjort det en vecka i förväg så jag kunde fokusera fullt ut på kursmomentet. Att försöka greppa sambandet mellan Composer och Pico (CMS'en), de nya fil-ändelserna (twig, md, json), skriva markdown och mängden kod i portfolien har varit en utmaning. Jag hoppas det klarnar under kursens gång.
 Samtidigt som det är tacksamt att ha kod att arbeta med har det varit en utmaning att förstå vilken kod jag förväntas förändra för att uppfylla kravet att skapa ett eget tema. 
 

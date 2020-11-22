@@ -67,23 +67,41 @@
             </div>
         </div>
 
-        <div class="item4" role="main">
-            {% if meta.Image %}
-                {# {{ dump(meta.Image) }} #}
-                    <div class="with-image">
-                        <div class="l-img">
-                            <img src="{{meta.Image}}" class="l-img">
-                        </div>
-                    <div class="content">
-                        {{ content }}
-                    </div>
+        <div class="item4">
+            <div class="rep-cont">
+                <div class="sidebar">
+                    {% for page in pages("report") %}
+                        <a href="{{page.url}}"> {{page.title}} </a>
+                    {% endfor %}
                 </div>
 
-            {% else %}
-                <div class="main">
+
+                {% if meta.Image %}
+                    {# {{ dump(meta.Image) }} #}
+                    {# <div class="with-image">
+                    {% if meta.Image %} #}
+                    <div class="content">
                     {{ content }}
-                </div>
-            {% endif %}
+                    </div>
+                    
+                    <div class="img-col">
+                        {% for image in meta.Image %} 
+                            <a href={{image.img}} target="_self">
+                                <img src="{{image.img}}" class="l-img" target="_self">
+                            </a>
+                        {% endfor %}
+                    </div>
+                {# {% endif %} #}
+               
+                    {# </div> #}
+
+                {% else %}
+                    <div class="without-img" role="main">
+                        {{ content }}
+                    </div>
+
+                {% endif %}
+            </div>
         </div>
 
         <div class="item5">

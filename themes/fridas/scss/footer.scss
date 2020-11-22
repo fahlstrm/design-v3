@@ -1,5 +1,5 @@
 .item5 {
-    height: 12vh;
+    height: 10vh;
     grid-column: 1 /4;
     background-color: $rasberry-pink;
 }
@@ -7,12 +7,10 @@
 .item6 {
     grid-column: 4 / 6;
     background-color: $rasberry-pink;
-    
+ 
 
     .social {
-        padding-top: 0.5em;
-        font-size: 5vh;
-        
+        font-size: 5vh; 
     }
 
     .social a {
@@ -23,10 +21,13 @@
 
 .item5,
 .item6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     p {
-        padding: 2.5em 0 0 3em;
         font-size: 2vh;
-        margin: 0;
+        margin: 0 auto;
     }
 
     a {
