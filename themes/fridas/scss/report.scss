@@ -11,28 +11,38 @@
         margin: 0;
         // border-bottom: 0.2em dotted $rasberry-pink; 
     }
-    
+
 }
 
 
 
 .kmom-box {
-    border-bottom: 0.15em dotted $rasberry-pink;
+    border-bottom: 0.15em dotted $hoover-dotted;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 
+
     h2 {
         width: span;
-        // background-color: $rasberry-pink;
-        color: $sea-blue;
+        color: $headings2;
     }
+
+    h2:hover {
+        color: $hoover-dotted;
+    }
+
     
 }
 
 .project {
     grid-column: span 3;
+}
+
+.in-report {
+    width: 15vw;
+    
 }
 
 

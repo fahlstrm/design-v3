@@ -9,7 +9,7 @@
     flex-direction: row;
 
     h1 {
-        color: $sea-blue;
+        color: $headings1;
     }
     
     ul,
@@ -58,6 +58,7 @@
     grid-template-columns: 25vw 40vw;
     align-items: center;
 
+
     h1 {
         margin: 0;
     }
@@ -65,10 +66,12 @@
     .l-img {
         padding: 0.3em;
         max-width: 100%;
+        filter: brightness($img-bright);
     }
 
     .img-col {
         grid-column: 1;
+   
     }
 
     .content {
@@ -83,21 +86,31 @@
     grid-template-columns: 7vw 40vw 15vw;
     align-items: center;
 
-    
+        
     .sidebar {
         grid-column: 1;
-        margin: 0 -1em;
+        margin: 0 -1.5em;
     }
+
 
     .sidebar,
     .img-col {
         align-self: flex-start;
         position: sticky;
-        top: 30%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        top: 5%;
     }
+
 
     .sidebar a {
         display: block;
+
+       
+    }
+
+    a:hover {
+        color: $hoover-links;
     }
 
     .without-img {
@@ -111,6 +124,7 @@
     .l-img {
         margin: 0 1em;
         width: 15vw;
+        filter: grayscale(60%) contrast(98%) brightness($img-bright);
     }
 
     .content {

@@ -1,12 +1,12 @@
 .item5 {
     height: 10vh;
     grid-column: 1 /4;
-    background-color: $rasberry-pink;
+    background-color: $accent-color;
 }
 
 .item6 {
     grid-column: 4 / 6;
-    background-color: $rasberry-pink;
+    background-color: $accent-color;
  
 
     .social {
@@ -31,11 +31,11 @@
     }
 
     a {
-        color: $body-text;
+        color: $footer-links;
     }
 
     a:hover {
-        color: $body-text;
+        color: $hoover-links;
     }
 }
 

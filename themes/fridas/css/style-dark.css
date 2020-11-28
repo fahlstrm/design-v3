@@ -6461,7 +6461,7 @@ readers do not read off random characters that represent icons */
   grid-column: 1/4;
   height: 15vh;
   margin: 1vh;
-  border-right: 0.3vw dotted #3B1C1F;
+  border-right: 0.3vw dotted #785456;
 }
 
 .logo {
@@ -6485,18 +6485,18 @@ readers do not read off random characters that represent icons */
   letter-spacing: 1em;
   margin: 0;
   font-size: 1.8em;
-  color: #575252;
+  color: #7D7D7D;
 }
 .title p {
   line-height: 5vh;
   font-size: 1em;
   font-style: italic;
-  color: #BA5A63;
+  color: #7D5757;
 }
 .title a,
 .title .title :visited {
   text-decoration: none;
-  color: #575252;
+  color: #7D7D7D;
 }
 
 .item2 {
@@ -6521,21 +6521,21 @@ readers do not read off random characters that represent icons */
 
 .item2 a,
 .nav-toggle {
-  color: #575252;
+  color: #7D7D7D;
   text-decoration: none;
 }
 
 .item2 .active a,
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #BA5A63;
+  color: #7D5757;
   text-decoration: none;
 }
 
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #BA5A63;
-  border-bottom: 4px dotted #BA5A63;
+  color: #7D5757;
+  border-bottom: 4px dotted #7D5757;
 }
 
 .nav-toggle {
@@ -6548,7 +6548,7 @@ readers do not read off random characters that represent icons */
   height: 8vh;
   object-fit: cover;
   overflow: hidden;
-  filter: grayscale(0) brightness(100%);
+  filter: grayscale(100%) brightness(90%);
 }
 .item3 .flash-img {
   width: 100%;
@@ -6564,7 +6564,7 @@ readers do not read off random characters that represent icons */
   flex-direction: row;
 }
 .item4 h1 {
-  color: #3B1C1F;
+  color: #785456;
 }
 .item4 ul,
 .item4 li {
@@ -6575,7 +6575,7 @@ readers do not read off random characters that represent icons */
 .item4 a,
 .item4 a:visited {
   text-decoration: none;
-  color: #575252;
+  color: #7D7D7D;
   font-weight: bold;
 }
 
@@ -6594,7 +6594,7 @@ readers do not read off random characters that represent icons */
 .main a,
 .main a:visited {
   text-decoration: none;
-  color: #575252;
+  color: #7D7D7D;
   font-weight: bold;
 }
 
@@ -6609,7 +6609,7 @@ readers do not read off random characters that represent icons */
 .with-image .l-img {
   padding: 0.3em;
   max-width: 100%;
-  filter: brightness(100%);
+  filter: brightness(90%);
 }
 .with-image .img-col {
   grid-column: 1;
@@ -6640,7 +6640,7 @@ readers do not read off random characters that represent icons */
   display: block;
 }
 .rep-cont a:hover {
-  color: #BA5A63;
+  color: #7D5757;
 }
 .rep-cont .without-img {
   grid-column: 2;
@@ -6651,7 +6651,7 @@ readers do not read off random characters that represent icons */
 .rep-cont .l-img {
   margin: 0 1em;
   width: 15vw;
-  filter: grayscale(60%) contrast(98%) brightness(100%);
+  filter: grayscale(60%) contrast(98%) brightness(90%);
 }
 .rep-cont .content {
   grid-column: 2;
@@ -6669,17 +6669,17 @@ readers do not read off random characters that represent icons */
 }
 
 .kmom-box {
-  border-bottom: 0.15em dotted #BA5A63;
+  border-bottom: 0.15em dotted #7D5757;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .kmom-box h2 {
   width: span;
-  color: #874148;
+  color: #874047;
 }
 .kmom-box h2:hover {
-  color: #BA5A63;
+  color: #7D5757;
 }
 
 .project {
@@ -6693,12 +6693,12 @@ readers do not read off random characters that represent icons */
 .item5 {
   height: 10vh;
   grid-column: 1/4;
-  background-color: #ba5a63;
+  background-color: #4A3434;
 }
 
 .item6 {
   grid-column: 4/6;
-  background-color: #ba5a63;
+  background-color: #4A3434;
 }
 .item6 .social {
   font-size: 5vh;
@@ -6720,11 +6720,11 @@ readers do not read off random characters that represent icons */
 }
 .item5 a,
 .item6 a {
-  color: #3B1C1F;
+  color: #666666;
 }
 .item5 a:hover,
 .item6 a:hover {
-  color: #BA5A63;
+  color: #7D5757;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
@@ -6877,7 +6877,7 @@ readers do not read off random characters that represent icons */
 
 html,
 body {
-  background-color: #ffffff;
+  background-color: #313131;
   margin: 0;
   font-family: "Quicksand", sans-serif, "Arial", monospace;
   font-size: 1.105em;
@@ -6885,7 +6885,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #575252;
+  color: #7D7D7D;
 }
 
 .container {

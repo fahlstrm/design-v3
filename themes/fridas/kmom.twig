@@ -17,8 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
-
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 </head>
 
 
@@ -70,9 +73,16 @@
         <div class="item4">
             <div class="rep-cont">
                 <div class="sidebar">
-                    {% for page in pages("report") %}
-                        <a href="{{page.url}}"> {{page.title}} </a>
-                    {% endfor %}
+                    {# {{ dump("report" in current_page["id"])}} #}
+                    {% if "report" in current_page["id"] %}
+                        {% for page in pages("report") %}
+                            <a href="{{page.url}}"> {{page.title}} </a>
+                        {% endfor %}
+                    {% elseif "analysis" in current_page["id"] %}
+                          {% for page in pages("analysis") %}
+                            <a href="{{page.url}}"> {{page.title}} </a>
+                        {% endfor %}
+                    {% endif %}
                 </div>
 
 

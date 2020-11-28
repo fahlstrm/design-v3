@@ -2,7 +2,7 @@
     grid-column: 1 / 4;
     height: 15vh;
     margin: 1vh;
-    border-right: 0.3vw dotted $sea-blue;
+    border-right: 0.3vw dotted $headings1;
 }
 
 .logo {
@@ -34,7 +34,7 @@
         line-height: 5vh;
         font-size: 1em;
         font-style: italic;
-        color: rgb(76, 129, 152);
+        color: $hoover-links;
     }
 
     a,
@@ -77,14 +77,14 @@
 .item2 .active a,
 .item2 a:hover,
 .nav-toggle:hover {
-    color: $rasberry-pink;
+    color: $hoover-links;
     text-decoration: none;
 }
 
 .item2 a:hover,
 .nav-toggle:hover {
-    color: $sea-blue;
-    border-bottom: 4px dotted $sea-blue;
+    color: $hoover-links;
+    border-bottom: 4px dotted $hoover-dotted;
 }
 
 .nav-toggle {
@@ -98,6 +98,7 @@
     height: 8vh;
     object-fit: cover;
     overflow: hidden;
+    filter: grayscale($img-gray) brightness($img-bright);
 
     .flash-img {
         width: 100%;
