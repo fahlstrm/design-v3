@@ -15,4 +15,8 @@ Social:
       url: https://dbwebb.se/kurser/design-v3
       icon: fas fa-book
 
+    - title: Mörkt tema
+      url: ?action=theme
+      icon: fas fa-adjust
+
 ---

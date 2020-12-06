@@ -70,7 +70,7 @@
             </div>
         </div>
 
-        <div class="item4">
+        {# <div class="item4"> #}
             <div class="rep-cont">
                 <div class="sidebar">
                     {# {{ dump("report" in current_page["id"])}} #}
@@ -93,12 +93,20 @@
                     <div class="content">
                     {{ content }}
                     </div>
-                    
+
+                            
                     <div class="img-col">
-                        {% for image in meta.Image %} 
-                            <a href={{image.img}} target="_self">
-                                <img src="{{image.img}}" class="l-img" target="_self">
-                            </a>
+                
+                        {% for image in meta.Image %}
+                            <div>
+                                <a href="{{base_url}}/image/{{image.url}}" target="blank">
+                                <picture>
+                                    <source media="(min-width: 668px)" srcset="{{base_url}}/image/{{image.url}}?crop-to-fit&aspect-ratio=!5:8&q=50&width=50%">
+                                    <source media="(min-width: 376px)" srcset="{{base_url}}/image/{{image.url}}?crop-to-fit&aspect-ratio=!5:8&q=50&width=50%">
+                                    <img class="l-img" src="{{base_url}}/image/{{image.url}}&q=50" alt ="{{ image.alt}}">
+                                </picture>
+                                </a>
+                            </div>
                         {% endfor %}
                     </div>
                 {# {% endif %} #}
@@ -112,7 +120,7 @@
 
                 {% endif %}
             </div>
-        </div>
+        {# </div> #}
 
         <div class="item5">
             <p>

@@ -1,0 +1,36 @@
+
+.gallery {
+    grid-column: 1/6;
+    width: 70vw;
+    min-height: 65vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em 1em;
+    padding: 1em;
+
+    img {
+        max-width: 100%;
+        filter: grayscale(60%) contrast(98%) brightness($img-bright);
+    }
+
+    img:hover {
+        opacity: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 677px) {
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+

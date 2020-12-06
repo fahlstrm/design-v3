@@ -1,14 +1,19 @@
 .report {
     // background-color: lightcoral;
-    width: inherit;
+    width: 70vw;
+    grid-column: 1 / 6;
+    margin: 0 auto;
+    min-height: 65vh;
     display: grid;
     gap: 1em;
+    grid-template-columns: 23vw 23vw 23vw;
     
 
     h1 {
         grid-column: span 3;
         justify-self: center;
         margin: 0;
+        align-self: center;
         // border-bottom: 0.2em dotted $rasberry-pink; 
     }
 
@@ -17,11 +22,10 @@
 
 
 .kmom-box {
-    border-bottom: 0.15em dotted $hoover-dotted;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border-bottom: 0.15em dotted $hoover-dotted;
 
 
     h2 {
@@ -32,6 +36,7 @@
     h2:hover {
         color: $hoover-dotted;
     }
+
 
     
 }
@@ -44,6 +49,12 @@
     width: 15vw;
     
 }
+
+.img-cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 
 
 

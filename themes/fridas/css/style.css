@@ -6461,7 +6461,7 @@ readers do not read off random characters that represent icons */
   grid-column: 1/4;
   height: 15vh;
   margin: 1vh;
-  border-right: 0.3vw dotted #3B1C1F;
+  border-right: 0.3vw dotted #3b1c1f;
 }
 
 .logo {
@@ -6491,7 +6491,7 @@ readers do not read off random characters that represent icons */
   line-height: 5vh;
   font-size: 1em;
   font-style: italic;
-  color: #BA5A63;
+  color: #ba5a63;
 }
 .title a,
 .title .title :visited {
@@ -6528,14 +6528,14 @@ readers do not read off random characters that represent icons */
 .item2 .active a,
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #BA5A63;
+  color: #ba5a63;
   text-decoration: none;
 }
 
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #BA5A63;
-  border-bottom: 4px dotted #BA5A63;
+  color: #ba5a63;
+  border-bottom: 4px dotted #ba5a63;
 }
 
 .nav-toggle {
@@ -6563,17 +6563,20 @@ readers do not read off random characters that represent icons */
   display: flex;
   flex-direction: row;
 }
-.item4 h1 {
-  color: #3B1C1F;
+
+h1 {
+  color: #3b1c1f;
 }
-.item4 ul,
-.item4 li {
+
+ul,
+li {
   list-style: none;
   font-size: 1em;
   padding: 1vh 0 0 1.5vw;
 }
-.item4 a,
-.item4 a:visited {
+
+a,
+a:visited {
   text-decoration: none;
   color: #575252;
   font-weight: bold;
@@ -6620,13 +6623,16 @@ readers do not read off random characters that represent icons */
 }
 
 .rep-cont {
+  grid-column: 1/6;
   display: grid;
-  grid-template-columns: 7vw 40vw 15vw;
+  min-height: 65vh;
+  grid-template-columns: 10vw 45vw 15vw;
+  margin: 0 auto;
   align-items: center;
 }
 .rep-cont .sidebar {
   grid-column: 1;
-  margin: 0 -1.5em;
+  margin: 0;
 }
 .rep-cont .sidebar,
 .rep-cont .img-col {
@@ -6638,9 +6644,11 @@ readers do not read off random characters that represent icons */
 }
 .rep-cont .sidebar a {
   display: block;
+  overflow-wrap: break-word;
+  margin-right: 1vw;
 }
 .rep-cont a:hover {
-  color: #BA5A63;
+  color: #ba5a63;
 }
 .rep-cont .without-img {
   grid-column: 2;
@@ -6657,29 +6665,52 @@ readers do not read off random characters that represent icons */
   grid-column: 2;
 }
 
+.embed-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .report {
-  width: inherit;
+  width: 70vw;
+  grid-column: 1/6;
+  margin: 0 auto;
+  min-height: 65vh;
   display: grid;
   gap: 1em;
+  grid-template-columns: 23vw 23vw 23vw;
 }
 .report h1 {
   grid-column: span 3;
   justify-self: center;
   margin: 0;
+  align-self: center;
 }
 
 .kmom-box {
-  border-bottom: 0.15em dotted #BA5A63;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 0.15em dotted #ba5a63;
 }
 .kmom-box h2 {
   width: span;
   color: #874148;
 }
 .kmom-box h2:hover {
-  color: #BA5A63;
+  color: #ba5a63;
 }
 
 .project {
@@ -6690,6 +6721,39 @@ readers do not read off random characters that represent icons */
   width: 15vw;
 }
 
+.img-cont {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.gallery {
+  grid-column: 1/6;
+  width: 70vw;
+  min-height: 65vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em 1em;
+  padding: 1em;
+}
+.gallery img {
+  max-width: 100%;
+  filter: grayscale(60%) contrast(98%) brightness(100%);
+}
+.gallery img:hover {
+  opacity: 50%;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 677px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .item5 {
   height: 10vh;
   grid-column: 1/4;
@@ -6720,11 +6784,11 @@ readers do not read off random characters that represent icons */
 }
 .item5 a,
 .item6 a {
-  color: #3B1C1F;
+  color: #3b1c1f;
 }
 .item5 a:hover,
 .item6 a:hover {
-  color: #BA5A63;
+  color: #ba5a63;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
@@ -6813,13 +6877,16 @@ readers do not read off random characters that represent icons */
     grid-template-columns: 100%;
   }
   .rep-cont .sidebar {
-    visibility: hidden;
+    display: none;
   }
   .rep-cont .img-col {
     grid-column: 1;
+    margin: 0;
   }
   .rep-cont .l-img {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .rep-cont .content {
     grid-column: 1;
@@ -6834,6 +6901,14 @@ readers do not read off random characters that represent icons */
   .with-image .l-img {
     width: 100%;
     padding: 1vh 0;
+  }
+
+  .img-cont {
+    grid-template-columns: 100%;
+  }
+  .img-cont img {
+    width: 100%;
+    align-self: center;
   }
 
   .item5 p {
@@ -6877,7 +6952,7 @@ readers do not read off random characters that represent icons */
 
 html,
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 0;
   font-family: "Quicksand", sans-serif, "Arial", monospace;
   font-size: 1.105em;

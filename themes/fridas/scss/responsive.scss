@@ -6,6 +6,7 @@ $magic-num: $base-p-size * $line-height;
 @media (max-width: 767px) {
     .main {
         padding: 2em 0 1em;
+        
     }
 
     .title,
@@ -97,16 +98,20 @@ $magic-num: $base-p-size * $line-height;
         grid-template-columns: 100%;
         
         .sidebar {
-            visibility: hidden;
+            display: none;
         }
 
         .img-col {
             grid-column: 1;
+            margin: 0;
+
         }
         
         .l-img {
-            
             width: 100%;
+            margin: 0;
+            padding: 0;
+
         }
 
         .content {
@@ -124,6 +129,15 @@ $magic-num: $base-p-size * $line-height;
         .l-img {
             width: 100%;
             padding: 1vh 0;
+        }
+    }
+
+    .img-cont {
+        grid-template-columns: 100%;
+
+        img {
+            width: 100%;
+            align-self: center;
         }
     }
 

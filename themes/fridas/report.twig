@@ -35,15 +35,6 @@
             </a>
 
         <div class="item1">
-
-            {# {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
-                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-                    </a>
-                </div>
-
-            {% endif %} #}
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
                 <a href="{{ "index"|link }}">
                     <h1> {{ site_title }}</h1>
@@ -70,33 +61,12 @@
             </div>
         </div>
 
-        <div class="item4">
-{# 
-            {% if meta.Image or meta.LinkImage %}
-                {# {{ dump(meta.Image) }} #}
-                {# <div class="with-image">
-                {% if meta.Image %}
-                    <div class="img-col">
-                        <img src="{{meta.Image}}" class="l-img">
-                    </div>
-                {% elseif meta.LinkImage %}
-                    <div class="img-col">
-                        <a href="../image/designv3_kmom01.PNG" target="_self">
-                            <img src="{{meta.LinkImg}}" class="l-img" target="_self">
-                        </a>
-                    </div>
-                {% endif %}
-                {{ content }}
-                </div>
-
-            {% else %} #}
-                <div class="report" role="main">
-                    {{ content }}
-                </div>
-
-            {# {% endif %} #}
-
+    
+        <div class="report" role="main">
+            {{ content }}
         </div>
+
+      
 
         <div class="item5">
             <p>
@@ -107,7 +77,6 @@
         <div class="item6">
 
             <div class="social">
-                <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
                 {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">
                         <i class="{{ social.icon }}" aria-hidden="true"></i>
@@ -117,10 +86,6 @@
             </div>
 
         </div>
-        {# <div class="item7">7</div>
-        <div class="item8">8</div>
-        <div class="item9">9</div>
-        <div class="item10">10</div> #}
     </div>
 
 
