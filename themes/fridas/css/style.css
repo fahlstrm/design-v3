@@ -6461,7 +6461,7 @@ readers do not read off random characters that represent icons */
   grid-column: 1/4;
   height: 15vh;
   margin: 1vh;
-  border-right: 0.3vw dotted #3b1c1f;
+  border-right: 0.3vw dotted #4A2F35;
 }
 
 .logo {
@@ -6491,7 +6491,7 @@ readers do not read off random characters that represent icons */
   line-height: 5vh;
   font-size: 1em;
   font-style: italic;
-  color: #ba5a63;
+  color: #96606B;
 }
 .title a,
 .title .title :visited {
@@ -6528,14 +6528,14 @@ readers do not read off random characters that represent icons */
 .item2 .active a,
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #ba5a63;
+  color: #96606B;
   text-decoration: none;
 }
 
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #ba5a63;
-  border-bottom: 4px dotted #ba5a63;
+  color: #96606B;
+  border-bottom: 4px dotted #96606B;
 }
 
 .nav-toggle {
@@ -6565,7 +6565,7 @@ readers do not read off random characters that represent icons */
 }
 
 h1 {
-  color: #3b1c1f;
+  color: #4A2F35;
 }
 
 ul,
@@ -6648,7 +6648,7 @@ a:visited {
   margin-right: 1vw;
 }
 .rep-cont a:hover {
-  color: #ba5a63;
+  color: #96606B;
 }
 .rep-cont .without-img {
   grid-column: 2;
@@ -6703,14 +6703,14 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 0.15em dotted #ba5a63;
+  border-bottom: 0.15em dotted #96606B;
 }
 .kmom-box h2 {
   width: span;
-  color: #874148;
+  color: #D24863;
 }
 .kmom-box h2:hover {
-  color: #ba5a63;
+  color: #96606B;
 }
 
 .project {
@@ -6738,7 +6738,7 @@ a:visited {
 }
 .gallery img {
   max-width: 100%;
-  filter: grayscale(60%) contrast(98%) brightness(100%);
+  filter: grayscale(0) contrast(90%) brightness(100%);
 }
 .gallery img:hover {
   opacity: 50%;
@@ -6757,12 +6757,12 @@ a:visited {
 .item5 {
   height: 10vh;
   grid-column: 1/4;
-  background-color: #ba5a63;
+  background-color: #ca8290;
 }
 
 .item6 {
   grid-column: 4/6;
-  background-color: #ba5a63;
+  background-color: #ca8290;
 }
 .item6 .social {
   font-size: 5vh;
@@ -6781,14 +6781,15 @@ a:visited {
 .item6 p {
   font-size: 2vh;
   margin: 0 auto;
+  color: #4A1923;
 }
 .item5 a,
 .item6 a {
-  color: #3b1c1f;
+  color: #4A1923;
 }
 .item5 a:hover,
 .item6 a:hover {
-  color: #ba5a63;
+  color: #96606B;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/

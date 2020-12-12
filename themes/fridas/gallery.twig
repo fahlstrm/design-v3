@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,7 +30,7 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 
     <div class="container">
-           <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+           <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
@@ -59,7 +59,7 @@
 
         <div class="item3">
             <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/cherryblossom.jpg?sc=banner1&a=40,0,0,0">
+              <img class="flash-img" src="{{ base_url }}/image/cherryblossom.jpg?sc=banner1&a=40,0,0,0" alt="cherryblossom">
             </div>
         </div>
 
@@ -70,8 +70,8 @@
                     <div>
                         <a href="{{base_url}}/image/kmom05/{{image.url}}" target="blank">
                         <picture>
-                            <source media="(min-width: 668px)" srcset="{{base_url}}/image/kmom05/{{image.url}}">
-                            <source media="(min-width: 376px)" srcset="{{base_url}}/image/kmom05/{{image.url}}&w=667">
+                            <source media="(min-width: 668px)" srcset="{{base_url}}/image/kmom05/{{image.url}}?crop-to-fit&aspect-ratio=!1:1&width=30%&q=40">
+                            <source media="(min-width: 376px)" srcset="{{base_url}}/image/kmom05/{{image.url}}?crop-to-fit&aspect-ratio=!1:1&width=30%&q=50">
                             <img src= "{{base_url}}/image/kmom05/{{image.url}}&w=375" alt ="{{ image.alt}}">
                         </picture>
                         </a>

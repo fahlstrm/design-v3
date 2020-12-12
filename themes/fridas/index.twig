@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,7 +30,7 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
 
     <div class="container">
-           <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+           <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
@@ -67,7 +67,7 @@
 
         <div class="item3">
             <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/cherryblossom.jpg?sc=banner1&a=40,0,0,0">
+              <img class="flash-img" src="{{ base_url }}/image/cherryblossom.jpg?sc=banner1&a=40,0,0,0" alt="cherryblossom">
             </div>
         </div>
 
@@ -76,7 +76,7 @@
                 {# {{ dump(meta.Image) }} #}
                     <div class="with-image">
                         <div class="l-img">
-                            <img src="{{meta.Image}}" class="l-img">
+                            <img src="{{meta.Image[0]["img"]}}" alt="meta.Image[0]["alt"]}" class="l-img">
                         </div>
                     <div class="content">
                         {{ content }}

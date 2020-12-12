@@ -11,7 +11,7 @@
 
     img {
         max-width: 100%;
-        filter: grayscale(60%) contrast(98%) brightness($img-bright);
+        filter: grayscale($img-gray) contrast($img-contrast) brightness($img-bright);
     }
 
     img:hover {

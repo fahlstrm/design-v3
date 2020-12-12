@@ -6461,7 +6461,7 @@ readers do not read off random characters that represent icons */
   grid-column: 1/4;
   height: 15vh;
   margin: 1vh;
-  border-right: 0.3vw dotted #785456;
+  border-right: 0.3vw dotted #8f7a7b;
 }
 
 .logo {
@@ -6485,18 +6485,18 @@ readers do not read off random characters that represent icons */
   letter-spacing: 1em;
   margin: 0;
   font-size: 1.8em;
-  color: #7d7d7d;
+  color: #999999;
 }
 .title p {
   line-height: 5vh;
   font-size: 1em;
   font-style: italic;
-  color: #7d5757;
+  color: #b1999b;
 }
 .title a,
 .title .title :visited {
   text-decoration: none;
-  color: #7d7d7d;
+  color: #999999;
 }
 
 .item2 {
@@ -6521,21 +6521,21 @@ readers do not read off random characters that represent icons */
 
 .item2 a,
 .nav-toggle {
-  color: #7d7d7d;
+  color: #999999;
   text-decoration: none;
 }
 
 .item2 .active a,
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #7d5757;
+  color: #b1999b;
   text-decoration: none;
 }
 
 .item2 a:hover,
 .nav-toggle:hover {
-  color: #7d5757;
-  border-bottom: 4px dotted #7d5757;
+  color: #b1999b;
+  border-bottom: 4px dotted #b1999b;
 }
 
 .nav-toggle {
@@ -6565,7 +6565,7 @@ readers do not read off random characters that represent icons */
 }
 
 h1 {
-  color: #785456;
+  color: #8f7a7b;
 }
 
 ul,
@@ -6578,7 +6578,7 @@ li {
 a,
 a:visited {
   text-decoration: none;
-  color: #7d7d7d;
+  color: #999999;
   font-weight: bold;
 }
 
@@ -6597,7 +6597,7 @@ a:visited {
 .main a,
 .main a:visited {
   text-decoration: none;
-  color: #7d7d7d;
+  color: #999999;
   font-weight: bold;
 }
 
@@ -6648,7 +6648,7 @@ a:visited {
   margin-right: 1vw;
 }
 .rep-cont a:hover {
-  color: #7d5757;
+  color: #b1999b;
 }
 .rep-cont .without-img {
   grid-column: 2;
@@ -6703,14 +6703,14 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 0.15em dotted #7d5757;
+  border-bottom: 0.15em dotted #b1999b;
 }
 .kmom-box h2 {
   width: span;
-  color: #874047;
+  color: #af6970;
 }
 .kmom-box h2:hover {
-  color: #7d5757;
+  color: #b1999b;
 }
 
 .project {
@@ -6738,7 +6738,7 @@ a:visited {
 }
 .gallery img {
   max-width: 100%;
-  filter: grayscale(60%) contrast(98%) brightness(90%);
+  filter: grayscale(100%) contrast(100%) brightness(90%);
 }
 .gallery img:hover {
   opacity: 50%;
@@ -6781,14 +6781,15 @@ a:visited {
 .item6 p {
   font-size: 2vh;
   margin: 0 auto;
+  color: #a8a8a8;
 }
 .item5 a,
 .item6 a {
-  color: #666;
+  color: #a8a8a8;
 }
 .item5 a:hover,
 .item6 a:hover {
-  color: #7d5757;
+  color: #b1999b;
 }
 
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
@@ -6960,7 +6961,7 @@ body {
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  color: #7d7d7d;
+  color: #999999;
 }
 
 .container {
