@@ -2,13 +2,18 @@
 Title: Färg
 Description: Part 1
 Image: 
-    - url: glimstedts.PNG?crop-to-fit&aspect-ratio=!5:8&width=30%&q=50
+    - url: glimstedts.PNG
       alt: Glimstedt
-    - url: glimstedt_peach.PNG?crop-to-fit&aspect-ratio=!5:8&width=30%&q=50
-    - url: hm.PNG?crop-to-fit&aspect-ratio=!5:8&width=30%&q=50
-    - url: hm_kontrast.PNG?crop-to-fit&aspect-ratio=!5:8&width=30%&q=50
-    - url: one.PNG?crop-to-fit&aspect-ratio=!5:8&width=30%&q=50
-    - url: one_farg.PNG?crop-to-fit&aspect-ratio=!5:8&width=30%&q=50
+    - url: glimstedt_peach.PNG
+      alt: Glimdstedt_color
+    - url: hm.PNG
+      alt: H&M
+    - url: hm_kontrast.PNG
+      alt: H&M_color
+    - url: one.PNG
+      alt: ONE
+    - url: one_farg.PNG
+      alt: ONE_color
 Template: kmom
 ---
 
@@ -57,7 +62,7 @@ Resultat
 </table>
 
 - Färgschema: Triadiskt   
-<img class="in-report" src="../image/glim_triad.PNG">
+<img class="in-report" src="../image/glim_triad.PNG" alt="Glimdstedt Triadiskt">
 
 - Accentfärg: #201546 midnightblue
 - Typsnitt h1-h3: "la-pontaise", serif
@@ -78,7 +83,7 @@ Resultat
 </table>
 
 - Färgschema: Analog
-<img class="in-report" src="../image/hm_analog.PNG">
+<img class="in-report" src="../image/hm_analog.PNG" alt="H&M Analog">
 
 - Accentfärg: #e50010 red
 - Typsnitt H1 - H3: "HM Sans Regular", sans-serif
@@ -100,7 +105,7 @@ Resultat
 </table>
 
 - Färgschema: Triadiskt
-<img class="in-report" src="../image/one_triad.PNG">
+<img class="in-report" src="../image/one_triad.PNG" alt="ONE triadisk">
 
 - Accentfärg: #bd0f72 mediumvioletred
 - Typsnitt H1-H3: ProximaNova, sans-serif

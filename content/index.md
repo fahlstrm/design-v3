@@ -1,7 +1,9 @@
 ---
 Title: Presentation
 Description: This is our index page.
-Image: "image/frida.jpg"
+Image: 
+    - img: "image/frida.jpg"
+      alt: selfportrait
 ---
 
 Presentation

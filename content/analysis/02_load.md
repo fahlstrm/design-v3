@@ -71,11 +71,12 @@ Se över bildstorlek/kvalitet, får felmeddelande om att alt-atribut saknas för
 <div class="img-cont">
 
 <a href="%base_url%/image/pagespeed_granit_desktop.PNG">
-    <img class="in-report right" src="%base_url%/image/pagespeed_granit_desktop.PNG?q=100">
+    <img class="in-report right" src="%base_url%/image/pagespeed_granit_desktop.PNG?q=100" alt="Granit desktop">
 </a>
 
 <a href="%base_url%/image/pagespeed_granit_mobile.PNG">
-    <img class="in-report left" src="%base_url%/image/pagespeed_granit_mobile.PNG?q=100">
+    <img class="in-report left" src="%base_url%/image/pagespeed_granit_mobile.PNG?q=100"
+    alt="Granit mobile">
 </a>
 
 </div>
@@ -105,11 +106,11 @@ Se över JavaScript koden. Img-element saknar alt-atribut
 <div class="img-cont">
 
 <a href="%base_url%/image/pagespeed_mio_desktop.PNG">
-    <img class="in-report right" src="%base_url%/image/pagespeed_mio_desktop.PNG?q=100">
+    <img class="in-report right" src="%base_url%/image/pagespeed_mio_desktop.PNG?q=100" alt="Mio Desktop>
 </a>
 
 <a href="%base_url%/image/pagespeed_mio_mobile.PNG">
-    <img class="in-report left" src="%base_url%/image/pagespeed_mio_mobile.PNG?q=100">
+    <img class="in-report left" src="%base_url%/image/pagespeed_mio_mobile.PNG?q=100" alt="Mio mobile>
 </a>
 
 </div>
@@ -139,11 +140,11 @@ Se över koden, läser in oödig JavaScript samt stort DOM-träd vilket skapar l
 <div class="img-cont">
 
 <a href="%base_url%/image/pagespeed_ellos_desktop.PNG">
-    <img class="in-report right" src="%base_url%/image/pagespeed_ellos_desktop.PNG?q=100">
+    <img class="in-report right" src="%base_url%/image/pagespeed_ellos_desktop.PNG?q=100" alt="Ellos desktop">
 </a>
 
 <a href="%base_url%/image/pagespeed_ellos_mobile.PNG">
-    <img class="in-report left" src="%base_url%/image/pagespeed_ellos_mobile.PNG?q=100">
+    <img class="in-report left" src="%base_url%/image/pagespeed_ellos_mobile.PNG?q=100" alt="Ellos mobile">
 </a>
 
 </div>

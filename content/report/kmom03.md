@@ -2,9 +2,12 @@
 Title: Kmom03
 Description: Part 3
 Image:  
-    - img: "../image/grid.PNG"
-    - img:  "../image/grid2.PNG"
-    - img: "../image/grid3.PNG"
+    - url: grid.PNG
+      alt: grid
+    - url: grid2.PNG
+      alt: grid2
+    - url: grid3.PNG
+      alt: grid3
 Template: kmom
 ---
 

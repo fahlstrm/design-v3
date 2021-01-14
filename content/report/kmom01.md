@@ -2,7 +2,8 @@
 Title: Kmom01
 Description: Part 1
 Image: 
-    - img: "../image/designv3_kmom01.PNG"
+    - url: "../image/designv3_kmom01.PNG"
+      alt: grid
 Template: kmom
 ---
 

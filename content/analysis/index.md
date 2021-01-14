@@ -21,3 +21,14 @@ Rapporter
     <p> & prestanda | Kmom06 </p>
 </div>
 
+<div class="kmom-box">
+    <a href="analysis/10_webbplatsdesign"> <h2> Designtrender </h2> </a>
+    <p> kmom10 </p>
+</div>
+
+<div class="kmom-box">
+    <a href="analysis/11_design-och-webbplatser"> <h2> Designelement </h2> </a>
+    <p> & principer | Kmom10 </p>
+</div>
+
+
